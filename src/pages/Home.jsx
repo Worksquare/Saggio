@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 
 //Assets
-import vid from "../assets/Rectangle 3.png";
+import video1 from "../assets/Rectangle 3.png";
+import video2 from "../assets/Rectangle-29.png";
 import image35 from "../assets/Rectangle-35.png";
 import image36 from "../assets/Rectangle-36.png";
+import image31 from "../assets/Rectangle-31.png";
+import image32 from "../assets/Rectangle-32.png";
+import image33 from "../assets/Rectangle-33.png";
+import image34 from "../assets/Rectangle-34.png";
+import image44 from "../assets/Rectangle-44.png";
 
 //style
 import "./Home.css";
@@ -21,7 +27,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img src={vid} alt="video" />
+          <img src={video1} alt="video" />
         </div>
       </section>
 
@@ -59,6 +65,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* SECTION FOUR */}
       <section className="home-section-four">
         <h3>
           Make the best choice by choosing <br />
@@ -67,7 +74,9 @@ const Home = () => {
 
         <div className="home-plans">
           <div className="home-silver-plan">
-            <h4>SILVER</h4>
+            <Link to="#">
+              <h4>SILVER</h4>
+            </Link>
             <ul>
               <li>1 Workspace</li>
               <li>5 Courses</li>
@@ -77,7 +86,9 @@ const Home = () => {
           </div>
 
           <div className="home-diamond-plan">
-            <h4>DIAMOND</h4>
+            <Link to="#">
+              <h4>DIAMOND</h4>
+            </Link>
             <ul>
               <li>5 Workspaces</li>
               <li>15 Courses</li>
@@ -87,7 +98,9 @@ const Home = () => {
           </div>
 
           <div className="home-gold-plan">
-            <h4>GOLD</h4>
+            <Link to="#">
+              <h4>GOLD</h4>
+            </Link>
             <ul>
               <li>3 Workspaces</li>
               <li>10 Courses</li>
@@ -95,6 +108,115 @@ const Home = () => {
               <li>5 Blogs</li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* SECTION FIVE */}
+      <section className="home-section-five">
+        <h3>
+          On our Timeline, you get the best insights about <br />
+          <span>Saggio</span>.
+        </h3>
+
+        <div className="home-timelines">
+          <div className="home-timeline-one">
+            <div className="timeline-one-upper">
+              <img src={image31} alt="timeline photo" />
+              <div>
+                <h5>
+                  Reinforcing the <br />
+                  GENZ
+                </h5>
+                <p>
+                  Bringing onboard determined <br />
+                  young talents had been the <br />
+                  interest of the organisation, <br />
+                  with various experts to teach <br />
+                  them.
+                </p>
+              </div>
+            </div>
+
+            <div className="timeline-one-lower">
+              <img src={image34} alt="timeline photo" />
+              <div>
+                <h5>Care for all</h5>
+                <p>
+                  At Saggio, we believe that <br />
+                  everyone requires that utmost <br />
+                  care,then we go in extent <br />
+                  might to treat every clients <br />
+                  equally withour best.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="home-timeline-two">
+            <div className="timeline-two-upper">
+              <img src={image32} alt="timeline photo" />
+              <div>
+                <h5>Care for all</h5>
+                <p>
+                  At Saggio, we believe that <br />
+                  everyone requires that utmost <br />
+                  care,then we go in extent <br />
+                  might to treat every clients <br />
+                  equally withour best.
+                </p>
+              </div>
+            </div>
+
+            <div className="timeline-two-lower">
+              <img src={image33} alt="timeline photo" />
+              <div>
+                <h5>
+                  Top Fifteen Trends <br /> in Industry
+                </h5>
+                <p>
+                  We know how odd it is to be in <br />
+                  the dark, so we pile up the <br />
+                  necessary information for your <br />
+                  best understanding about the <br />
+                  industry you are diving into.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION SIX */}
+      <section className="home-section-six">
+        <div className="section-six-testimonial">
+          <h3>Look at what our clients got for you.</h3>
+
+          <p>
+            We meet with our clients and capture a direct testimony <br />
+            that speaks well about what we do.
+          </p>
+
+          <img src={video2} alt="testimonial video" />
+        </div>
+      </section>
+
+      {/* SECTION SEVEN */}
+      <section className="home-section-seven">
+        <h3>Know more about our Product</h3>
+
+        <div className="section-seven-product">
+          <div>
+            <p>Struggling to navigate the product?</p>
+            <h4>
+              Book a One on One <br />
+              session, we are ready <br />
+              to serve you better!
+            </h4>
+
+            <Link to="#">BOOK A DEMO</Link>
+          </div>
+
+          <img src={image44} alt="product photo" />
         </div>
       </section>
     </main>
