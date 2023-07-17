@@ -1,0 +1,176 @@
+.home .home-section-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.home .home-section-one h2 {
+  color: #111111;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.home .home-section-one a {
+  padding: 10px 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--mainColor);
+  border-radius: 6px;
+}
+
+.home .home-section-one img {
+  width: 500px;
+  height: 350px;
+  border: 1px solid #3eb489;
+}
+
+.home .home-section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 90px 207px 169.011px 207px;
+}
+
+.home .home-section-two .partners h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.home .home-section-two .partners span {
+  margin: 0 10px;
+  text-transform: uppercase;
+  color: #6d6d6d;
+  font-size: 30px;
+}
+
+.home .home-section-three {
+  max-width: 600px;
+  height: 420px;
+  margin: 100px auto;
+  padding: 20px;
+  /* border: 2px solid red; */
+  background-color: #fff;
+}
+
+.home-section-three .courses {
+  display: flex;
+  gap: 20px;
+}
+
+.home-section-three .courses-text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home-section-three .courses-text p {
+  margin-top: 10px;
+  color: #727272;
+}
+
+.home-section-three .courses-img {
+  position: relative;
+}
+
+.home-section-three .courses-circle {
+  width: 250px;
+  height: 250px;
+  background-color: #3eb489;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.home-section-three .courses-img .image35 {
+  position: absolute;
+  top: 4px;
+  left: 30px;
+  z-index: 1;
+
+  width: 250px;
+  height: 250px;
+}
+
+.home-section-three .courses-img .image36 {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+
+  width: 250px;
+  height: 250px;
+}
+
+.home .home-section-four {
+  background-color: #fffef4;
+  padding: 40px;
+}
+
+.home .home-section-four h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.home-section-four .home-plans {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.home-section-four .home-plans .home-silver-plan,
+.home-section-four .home-plans .home-gold-plan {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: #fafffd;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+}
+
+.home-section-four .home-plans .home-diamond-plan {
+  text-align: center;
+  width: 300px;
+  height: 340px;
+  background-color: #fafffd;
+  border-radius: 20px;
+}
+
+.home-section-four .home-plans .home-silver-plan h4,
+.home-section-four .home-plans .home-gold-plan h4 {
+  color: #fff;
+  background-color: #3eb489;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.home-section-four .home-plans .home-diamond-plan h4 {
+  color: #fff;
+  background-color: #074d33;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.home-section-four .home-plans .home-silver-plan ul li,
+.home-section-four .home-plans .home-gold-plan ul li {
+  color: #727272;
+  font-size: 18px;
+  padding: 20px;
+  border-top: 0.1px solid #a6a1a1;
+}
+
+.home-section-four .home-plans .home-diamond-plan ul li {
+  color: #727272;
+  font-size: 18px;
+  padding: 25px;
+  border-top: 0.1px solid #a6a1a1;
+}
