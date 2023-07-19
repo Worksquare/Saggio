@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #fff;
@@ -9,13 +9,10 @@
 }
 
 .nav .nav-logo {
-  flex: 0.3;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-
-  /* border: 2px solid green; */
 }
 
 .nav .nav-logo a {
@@ -23,17 +20,25 @@
 }
 
 .nav .nav-links {
-  flex: 0.4;
+  flex: 0.8;
   display: flex;
-  justify-content: space-evenly;
-  /* gap: 40px; */
+  justify-content: space-between;
   align-items: center;
   /* border: 2px solid yellow; */
 }
 
+.nav .nav-links ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav .nav-links ul li {
+  margin: 0 20px;
+}
+
 .nav .nav-links li a {
   color: #000;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -42,10 +47,77 @@
 }
 
 .nav .nav-log-btn {
-  flex: 0.3;
   display: flex;
-  justify-content: space-evenly;
-  /* gap: 20px; */
+  gap: 10px;
   align-items: center;
+  margin: 0 20px;
   /* border: 2px solid red; */
+}
+
+.nav .nav-menu {
+  display: none;
+  font-size: 30px;
+  color: var(--mainColor);
+}
+
+/** Media query */
+
+@media all and (max-width: 800px) {
+  .nav .nav-links {
+    display: none;
+  }
+
+  #nav-view {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+    /* border: 1px solid black; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+
+  #nav-view ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav .nav-menu {
+    display: block;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .nav .nav-links {
+    display: none;
+  }
+
+  #nav-view {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+    /* border: 1px solid black; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+
+  #nav-view ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav .nav-menu {
+    display: block;
+  }
 }

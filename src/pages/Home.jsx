@@ -10,6 +10,10 @@ import image32 from "../assets/Rectangle-32.png";
 import image33 from "../assets/Rectangle-33.png";
 import image34 from "../assets/Rectangle-34.png";
 import image44 from "../assets/Rectangle-44.png";
+import love from "../assets/love.png";
+
+//components
+import Footer from "../components/Footer";
 
 //style
 import "./Home.css";
@@ -35,15 +39,16 @@ const Home = () => {
         <div className="partners">
           <h3>Trusted By</h3>
           <div>
-            <span>GOOGLE</span>
-            <span>AMAZON</span>
-            <span>ECOWAS</span>
-            <span>ECOMOG</span>
-            <span>WHO</span>
+            <p>GOOGLE</p>
+            <p>AMAZON</p>
+            <p>ECOWAS</p>
+            <p>ECOMOG</p>
+            <p>WHO</p>
           </div>
         </div>
       </section>
 
+      {/* SECTION THREE */}
       <section className="home-section-three">
         <div className="courses">
           <div className="courses-text">
@@ -219,6 +224,47 @@ const Home = () => {
           <img src={image44} alt="product photo" />
         </div>
       </section>
+
+      {/* SECTION EIGHT- CONTACT US */}
+      <section className="home-section-eight">
+        <div className="section-eight-contact">
+          <h3>Contact Us</h3>
+
+          <div className="section-eight-contact-info">
+            <div className="eight-contact-text">
+              <h4>
+                Let us help with our <br /> best services.
+              </h4>
+              <p>
+                Drop us a line, we’ll be grateful to be of <br />
+                help throughout your journey on <span>Saggio</span>.
+              </p>
+
+              <div className="eight-contact-img">
+                <img src={love} alt="" />
+              </div>
+            </div>
+
+            <form>
+              <input type="text" placeholder="Enter your name" />
+
+              <input type="email" placeholder="Enter your email" />
+
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Type your message"
+              ></textarea>
+
+              <button>SEND</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
     </main>
   );
 };
