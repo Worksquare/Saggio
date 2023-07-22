@@ -2,9 +2,9 @@ import "./Blog.css";
 
 const Blog = () => {
   return (
-    <div className="blog">
+    <main className="blog">
       <p>Blog Page</p>
-    </div>
+    </main>
   );
 };
 

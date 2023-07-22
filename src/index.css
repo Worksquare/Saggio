@@ -9,3 +9,7 @@
 :root {
   --mainColor: #3eb489;
 }
+
+main {
+  min-height: 100vh;
+}

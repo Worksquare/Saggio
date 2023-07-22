@@ -12,9 +12,6 @@ import image34 from "../assets/Rectangle-34.png";
 import image44 from "../assets/Rectangle-44.png";
 import love from "../assets/love.png";
 
-//components
-import Footer from "../components/Footer";
-
 //style
 import "./Home.css";
 
@@ -238,8 +235,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 };

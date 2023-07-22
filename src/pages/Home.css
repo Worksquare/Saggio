@@ -293,7 +293,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 600px;
+  max-width: 800px;
   margin: 50px auto;
   padding: 20px;
   border-radius: 20px;
@@ -323,10 +323,11 @@
 .home .home-section-eight {
   background-color: #f9f9f9;
   padding: 20px;
+  margin-bottom: 40px;
 }
 
 .home .home-section-eight .section-eight-contact {
-  max-width: 650px;
+  max-width: 800px;
   margin: 20px auto;
 }
 
@@ -369,6 +370,7 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  width: 80%;
   gap: 20px;
   padding: 20px;
   border-radius: 20px;
@@ -554,6 +556,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 20px;
   }
 
   .home .home-section-seven .section-seven-product h4 {
