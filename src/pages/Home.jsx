@@ -22,10 +22,8 @@ const Home = () => {
   return (
     <main className="home">
       <section className="home-section-one">
-        <div>
-          <h2>
-            BRIDGING THE GAP <br /> FOR FUTURE GENZ IN <br /> THE HEALTH REALM.
-          </h2>
+        <div className="home-demo">
+          <h2>BRIDGING THE GAP FOR FUTURE GENZ IN THE HEALTH REALM.</h2>
 
           <Link to="#">BOOK A DEMO</Link>
         </div>
@@ -52,13 +50,11 @@ const Home = () => {
       <section className="home-section-three">
         <div className="courses">
           <div className="courses-text">
-            <h3>
-              Dive into our <br /> available courses.
-            </h3>
+            <h3>Dive into our available courses.</h3>
 
             <p>
-              We provide the most essential courses to <br />
-              make you stand out in the Health Realm.
+              We provide the most essential courses to make you stand out in the
+              Health Realm.
             </p>
           </div>
 
@@ -72,10 +68,7 @@ const Home = () => {
 
       {/* SECTION FOUR */}
       <section className="home-section-four">
-        <h3>
-          Make the best choice by choosing <br />
-          from the available LMS plans.
-        </h3>
+        <h3>Make the best choice by choosing from the available LMS plans.</h3>
 
         <div className="home-plans">
           <div className="home-silver-plan">
@@ -119,8 +112,7 @@ const Home = () => {
       {/* SECTION FIVE */}
       <section className="home-section-five">
         <h3>
-          On our Timeline, you get the best insights about <br />
-          <span>Saggio</span>.
+          On our Timeline, you get the best insights about <span>Saggio</span>.
         </h3>
 
         <div className="home-timelines">
@@ -128,15 +120,10 @@ const Home = () => {
             <div className="timeline-one-upper">
               <img src={image31} alt="timeline photo" />
               <div>
-                <h5>
-                  Reinforcing the <br />
-                  GENZ
-                </h5>
+                <h5>Reinforcing the GENZ</h5>
                 <p>
-                  Bringing onboard determined <br />
-                  young talents had been the <br />
-                  interest of the organisation, <br />
-                  with various experts to teach <br />
+                  Bringing onboard determined young talents had been the
+                  interest of the organisation, with various experts to teach
                   them.
                 </p>
               </div>
@@ -147,11 +134,9 @@ const Home = () => {
               <div>
                 <h5>Care for all</h5>
                 <p>
-                  At Saggio, we believe that <br />
-                  everyone requires that utmost <br />
-                  care,then we go in extent <br />
-                  might to treat every clients <br />
-                  equally withour best.
+                  At Saggio, we believe that everyone requires that utmost
+                  care,then we go in extent might to treat every clients equally
+                  withour best.
                 </p>
               </div>
             </div>
@@ -163,11 +148,9 @@ const Home = () => {
               <div>
                 <h5>Care for all</h5>
                 <p>
-                  At Saggio, we believe that <br />
-                  everyone requires that utmost <br />
-                  care,then we go in extent <br />
-                  might to treat every clients <br />
-                  equally withour best.
+                  At Saggio, we believe that everyone requires that utmost
+                  care,then we go in extent might to treat every clients equally
+                  withour best.
                 </p>
               </div>
             </div>
@@ -175,14 +158,10 @@ const Home = () => {
             <div className="timeline-two-lower">
               <img src={image33} alt="timeline photo" />
               <div>
-                <h5>
-                  Top Fifteen Trends <br /> in Industry
-                </h5>
+                <h5>Top Fifteen Trends in Industry</h5>
                 <p>
-                  We know how odd it is to be in <br />
-                  the dark, so we pile up the <br />
-                  necessary information for your <br />
-                  best understanding about the <br />
+                  We know how odd it is to be in the dark, so we pile up the
+                  necessary information for your best understanding about the
                   industry you are diving into.
                 </p>
               </div>
@@ -197,8 +176,8 @@ const Home = () => {
           <h3>Look at what our clients got for you.</h3>
 
           <p>
-            We meet with our clients and capture a direct testimony <br />
-            that speaks well about what we do.
+            We meet with our clients and capture a direct testimony that speaks
+            well about what we do.
           </p>
 
           <img src={video2} alt="testimonial video" />
@@ -213,9 +192,7 @@ const Home = () => {
           <div>
             <p>Struggling to navigate the product?</p>
             <h4>
-              Book a One on One <br />
-              session, we are ready <br />
-              to serve you better!
+              Book a One on One session, we are ready to serve you better!
             </h4>
 
             <Link to="#">BOOK A DEMO</Link>
@@ -232,12 +209,10 @@ const Home = () => {
 
           <div className="section-eight-contact-info">
             <div className="eight-contact-text">
-              <h4>
-                Let us help with our <br /> best services.
-              </h4>
+              <h4>Let us help with our best services.</h4>
               <p>
-                Drop us a line, we’ll be grateful to be of <br />
-                help throughout your journey on <span>Saggio</span>.
+                Drop us a line, we’ll be grateful to be of help throughout your
+                journey on <span>Saggio</span>.
               </p>
 
               <div className="eight-contact-img">
