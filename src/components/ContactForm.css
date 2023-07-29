@@ -1,0 +1,96 @@
+.contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.contact .section-eight-contact {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.contact .section-eight-contact h3 {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.contact .section-eight-contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff8b9;
+  padding: 20px;
+}
+
+.contact .section-eight-contact-info .eight-contact-text h4 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #3eb489;
+  margin-bottom: 20px;
+}
+
+.contact .section-eight-contact-info .eight-contact-text span {
+  color: #3eb489;
+  font-weight: 700;
+}
+
+.contact .eight-contact-img {
+  text-align: center;
+  margin: 20px 0 20px 40px;
+  /* margin-top: 20px; */
+}
+
+.contact .eight-contact-img img {
+  width: 150px;
+  height: 150px;
+}
+
+.contact .section-eight-contact-info form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.contact .section-eight-contact-info form input {
+  padding: 10px;
+  border: 1px solid #a6a1a1;
+  outline: none;
+  border-radius: 4px;
+}
+
+.contact .section-eight-contact-info form textarea {
+  border: 1px solid #a6a1a1;
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+  resize: none;
+}
+
+.contact .section-eight-contact-info form button {
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #111111;
+  border: none;
+  outline: none;
+}
+
+@media all and (max-width: 650px) {
+  .contact .section-eight-contact h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .contact .section-eight-contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .section-eight-contact-info form {
+    width: 100%;
+  }
+}

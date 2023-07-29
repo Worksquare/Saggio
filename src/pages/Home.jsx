@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+//components
+import ContactForm from "../components/ContactForm";
+
 //Assets
 import video1 from "../assets/Rectangle 3.png";
 import video2 from "../assets/Rectangle-29.png";
@@ -10,7 +13,6 @@ import image32 from "../assets/Rectangle-32.png";
 import image33 from "../assets/Rectangle-33.png";
 import image34 from "../assets/Rectangle-34.png";
 import image44 from "../assets/Rectangle-44.png";
-import love from "../assets/love.png";
 
 //style
 import "./Home.css";
@@ -200,41 +202,7 @@ const Home = () => {
       </section>
 
       {/* SECTION EIGHT- CONTACT US */}
-      <section className="home-section-eight">
-        <div className="section-eight-contact">
-          <h3>Contact Us</h3>
-
-          <div className="section-eight-contact-info">
-            <div className="eight-contact-text">
-              <h4>Let us help with our best services.</h4>
-              <p>
-                Drop us a line, we’ll be grateful to be of help throughout your
-                journey on <span>Saggio</span>.
-              </p>
-
-              <div className="eight-contact-img">
-                <img src={love} alt="" />
-              </div>
-            </div>
-
-            <form>
-              <input type="text" placeholder="Enter your name" />
-
-              <input type="email" placeholder="Enter your email" />
-
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="5"
-                placeholder="Type your message"
-              ></textarea>
-
-              <button>SEND</button>
-            </form>
-          </div>
-        </div>
-      </section>
+      <ContactForm />
     </main>
   );
 };
