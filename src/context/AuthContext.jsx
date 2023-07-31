@@ -22,13 +22,24 @@ const authReducer = (state, action) => {
 export const AuthContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(authReducer, {
     user: null,
+    authIsReady: false,
   });
 
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("user"));
 
+    // const unsub = () => {
+    //   const user = JSON.parse(localStorage.getItem("user"));
+
+    //   if (user) {
+    //     dispatch({ type: "AUTH_IS_READY", payload: user });
+    //   }
+    // };
+
+    // return () => unsub();
+
     if (user) {
-      dispatch({ type: "LOGIN", payload: user });
+      dispatch({ type: "AUTH_IS_READY", payload: user });
     }
   }, []);
 
